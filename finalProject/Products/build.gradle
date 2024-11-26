@@ -31,6 +31,8 @@ dependencies {
 	implementation 'com.azure.spring:spring-cloud-azure-dependencies:5.13.0'
 	implementation 'com.azure.spring:spring-cloud-azure-starter-jdbc-postgresql:5.13.0'
 	implementation 'org.mapstruct:mapstruct:1.5.5.Final'
+	implementation 'org.springframework.cloud:spring-cloud-config-client:4.1.0'
+	implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap:4.1.0'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	runtimeOnly 'org.postgresql:postgresql'
